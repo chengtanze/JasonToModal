@@ -14,6 +14,8 @@
 		2C5BAB6D1B6A908500669858 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BAB6C1B6A908500669858 /* Images.xcassets */; };
 		2C5BAB701B6A908500669858 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BAB6E1B6A908500669858 /* LaunchScreen.xib */; };
 		2C5BAB7C1B6A908500669858 /* JasonToModalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BAB7B1B6A908500669858 /* JasonToModalTests.m */; };
+		2C5BAB871B6A90D100669858 /* ConvertRootModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BAB861B6A90D100669858 /* ConvertRootModal.m */; };
+		2C5BAB8A1B6A919B00669858 /* TestModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BAB891B6A919B00669858 /* TestModal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		2C5BAB751B6A908500669858 /* JasonToModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JasonToModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5BAB7A1B6A908500669858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C5BAB7B1B6A908500669858 /* JasonToModalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JasonToModalTests.m; sourceTree = "<group>"; };
+		2C5BAB851B6A90D100669858 /* ConvertRootModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertRootModal.h; sourceTree = "<group>"; };
+		2C5BAB861B6A90D100669858 /* ConvertRootModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertRootModal.m; sourceTree = "<group>"; };
+		2C5BAB881B6A919B00669858 /* TestModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModal.h; sourceTree = "<group>"; };
+		2C5BAB891B6A919B00669858 /* TestModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				2C5BAB641B6A908500669858 /* AppDelegate.m */,
 				2C5BAB661B6A908500669858 /* ViewController.h */,
 				2C5BAB671B6A908500669858 /* ViewController.m */,
+				2C5BAB851B6A90D100669858 /* ConvertRootModal.h */,
+				2C5BAB861B6A90D100669858 /* ConvertRootModal.m */,
+				2C5BAB881B6A919B00669858 /* TestModal.h */,
+				2C5BAB891B6A919B00669858 /* TestModal.m */,
 				2C5BAB691B6A908500669858 /* Main.storyboard */,
 				2C5BAB6C1B6A908500669858 /* Images.xcassets */,
 				2C5BAB6E1B6A908500669858 /* LaunchScreen.xib */,
@@ -222,6 +232,8 @@
 				2C5BAB681B6A908500669858 /* ViewController.m in Sources */,
 				2C5BAB651B6A908500669858 /* AppDelegate.m in Sources */,
 				2C5BAB621B6A908500669858 /* main.m in Sources */,
+				2C5BAB8A1B6A919B00669858 /* TestModal.m in Sources */,
+				2C5BAB871B6A90D100669858 /* ConvertRootModal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
